@@ -29,9 +29,9 @@ body {
   background: #e2dcff;
   
 }
-#main .c {  
+/* #main .c {  
   
-}
+} */
 
 .search-bar {
   display: flex;
@@ -53,7 +53,7 @@ body {
   width: 4rem;
   position: relative;
 }
-.glass-icon-c {
+.glass-icon .glass-icon-c {
     height: 100%;
     width: 55%;
     position: absolute;
@@ -63,18 +63,18 @@ body {
     transition: transform 0.7s cubic-bezier(.31,-0.84,.64,1.76);
 } 
     
-.glass-icon-c:active {
+.glass-icon .glass-icon-c:active {
       transform: translateX(-50%) rotate(0)!important;
 }
-.glass-icon__circle {
+.glass-icon .glass-icon-c:active .glass-icon__circle {
         width: .44rem;
         transform: translateX(.94rem);
         border-radius: 1rem!important;
 }
-.glass-icon__circle::after {
+.glass-icon .glass-icon-c:active .glass-icon__circle::after {
           transform: rotateY(90deg);
 }  
-.glass-icon__circle {
+.glass-icon .glass-icon__circle {
     height: 55%;
     width: 100%;
     background: #fff;
@@ -83,7 +83,7 @@ body {
     position: relative;
     transition: all 0.7s cubic-bezier(.31,-0.84,.64,1.76);
 }    
-.glass-icon__circle:after {
+.glass-icon .glass-icon__circle:after {
       background: #6046ff;
       height: 64%;
       width: 64%;
@@ -97,7 +97,7 @@ body {
     }
 
   
-.glass-icon__stick {
+.glass-icon .glass-icon__stick {
     
     
     width: .43rem;
