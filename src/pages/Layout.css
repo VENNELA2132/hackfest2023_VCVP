@@ -28,10 +28,11 @@ body {
   margin: 0;
   background: #e2dcff;
   
+} 
+#main .c {
+  text-align: center;
+  transform: translateX(0vw);
 }
-/* #main .c {  
-  
-} */
 
 .search-bar {
   display: flex;
@@ -42,13 +43,15 @@ body {
   padding: 1rem 1.3rem;
   border-radius: 1.6rem;
   color: #fff;
-  width: 55vw;
+  width: 25vw;
   margin: 0 auto;
   cursor: text;
   height: 5.2rem;
   box-shadow: 0 33px 99px 0 rgba(black, .4);
 }
-
+.search-text{
+  border:100px;
+}
 .glass-icon {
   height: 4rem;
   width: 4rem;

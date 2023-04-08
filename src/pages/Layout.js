@@ -1,8 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import './Layout.css'; 
-
-
-
+import './Layout.css';
 const Layout = () => {
   return (
     <div className="layout">
@@ -13,21 +10,23 @@ const Layout = () => {
           <li> <Link to="/searchResultsPage">searchResultsPage</Link> </li>
         </ul>
       </div>
-    <div id="main">
+      <div id="main">
         <div class="c">
-            <div class="search-bar">
-                <div class="glass-icon">
-                    <div class="glass-icon-c">
-                        <span class="glass-icon__circle"></span>
-                        <span class="glass-icon__stick"></span>
-                    </div>
-                </div>
+          <div class="search-bar" >
+            <div class="glass-icon">
+              <div class="glass-icon-c" >
+                <span class="glass-icon__circle"></span>
+                <span class="glass-icon__stick"></span>
+              </div>
             </div>
+            <input class="search-text" type="text"/>
+          </div>
         </div>
-    </div>
-      <Outlet />
+        <Outlet/>
+      </div>
     </div>
   )
 };
+
 
 export default Layout;
