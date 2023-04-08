@@ -22,6 +22,8 @@ const Layout = () => {
                         <span class="glass-icon__stick"></span>
                     </div>
                 </div>
+                <input type="text" className="searchInput" placeholder="Search...">
+                </input>
             </div>
         </div>
     </div>
