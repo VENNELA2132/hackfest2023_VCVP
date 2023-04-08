@@ -1,0 +1,112 @@
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav{
+  position: relative;
+  margin-top : 4%;
+}
+
+
+.flash {
+  animation: flash 1s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+  0% {opacity: 0;}
+  50% { opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+html {font-size: 16px}
+
+body {
+  margin: 0;
+  background: #e2dcff;
+  
+}
+#main .c {  
+  
+}
+
+.search-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #6046ff;
+  padding: 1rem 1.3rem;
+  border-radius: 1.6rem;
+  color: #fff;
+  width: 55vw;
+  margin: 0 auto;
+  cursor: text;
+  height: 5.2rem;
+  box-shadow: 0 33px 99px 0 rgba(#6046ff, .4);
+}
+
+.glass-icon {
+  height: 4rem;
+  width: 4rem;
+  position: relative;
+}
+.glass-icon-c {
+    height: 100%;
+    width: 55%;
+    position: absolute;
+    left: 50%;
+    transform-origin: center center;
+    transform: translateX(-50%) rotate(-45deg);
+    transition: transform 0.7s cubic-bezier(.31,-0.84,.64,1.76);
+} 
+    
+.glass-icon-c:active {
+      transform: translateX(-50%) rotate(0)!important;
+}
+.glass-icon__circle {
+        width: .44rem;
+        transform: translateX(.94rem);
+        border-radius: 1rem!important;
+}
+.glass-icon__circle::after {
+          transform: rotateY(90deg);
+}  
+.glass-icon__circle {
+    height: 55%;
+    width: 100%;
+    background: #fff;
+    border-radius: 100%;
+    display: block;
+    position: relative;
+    transition: all 0.7s cubic-bezier(.31,-0.84,.64,1.76);
+}    
+.glass-icon__circle:after {
+      background: #6046ff;
+      height: 64%;
+      width: 64%;
+      position: absolute;
+      left: 18%;
+      top: 18%;
+      display: block;
+      content: '';
+      border-radius: 100%;
+      transition: all 0.7s cubic-bezier(.31,-0.84,.64,1.76);
+    }
+
+  
+.glass-icon__stick {
+    
+    
+    width: .43rem;
+    height: 55%;
+    display: block;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - .43rem);
+    background: #fff;
+}
