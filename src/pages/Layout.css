@@ -33,6 +33,10 @@ body {
   text-align: center;
   transform: translateX(0vw);
 }
+/* #main .c {  
+  text-align: center;
+  transform: translateX(47vw);
+} */
 
 .search-bar {
   display: flex;
@@ -113,4 +117,13 @@ body {
     bottom: 0;
     left: calc(50% - .43rem);
     background: #fff;
+}
+
+input[type="text"]
+{
+background: transparent;
+border: none;
+height: 100%;
+width: 100%;
+font-size: 32px;
 }
