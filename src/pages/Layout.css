@@ -38,7 +38,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: #6046ff;
+  background: skyblue;
+  border-color: black;
   padding: 1rem 1.3rem;
   border-radius: 1.6rem;
   color: #fff;
@@ -46,7 +47,7 @@ body {
   margin: 0 auto;
   cursor: text;
   height: 5.2rem;
-  box-shadow: 0 33px 99px 0 rgba(#6046ff, .4);
+  box-shadow: 0 33px 99px 0 rgba(black, .4);
 }
 
 .glass-icon {
