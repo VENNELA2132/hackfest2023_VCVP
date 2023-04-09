@@ -42,7 +42,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: skyblue;
+  background: #B0DAFF;
   border-color: black;
   padding: 1rem 1.3rem;
   border-radius: 1.6rem;
@@ -92,7 +92,7 @@ body {
     transition: all 0.7s cubic-bezier(.31,-0.84,.64,1.76);
 }    
 .glass-icon .glass-icon__circle:after {
-      background: #6046ff;
+      background:#576CBC;
       height: 64%;
       width: 64%;
       position: absolute;

@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; /*for removing the blue color layer when clicked on mobile devices*/
     word-break: break-word;
@@ -31,9 +30,10 @@ header {
   height: var(--header-height);
 }
 .header .logo {
-  font-family: 'Comforter Brush', cursive;
+  font-family: 'Alkatra';
 padding-left: 40px;
   font-size:38px;
+  font-weight: 500;
 }
 .header .menu .drawer {
   display: flex;
